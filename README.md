@@ -97,7 +97,7 @@ JaCoCo is used for measuring code coverage of the tests. It provides detailed re
 are covered by tests, helping to identify untested parts of the codebase.
 
 JaCoCo coverage report:
-
+![JaCoCo Report](report.png)
 
 
 ## Possible Improvements
