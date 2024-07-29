@@ -1,0 +1,15 @@
+/Users/serafina/Desktop/ingram-micro/src/main/java/com/ingrammicro/IngramMicroApplication.java
+/Users/serafina/Desktop/ingram-micro/src/main/java/com/ingrammicro/controller/LanguageController.java
+/Users/serafina/Desktop/ingram-micro/src/main/java/com/ingrammicro/controller/ResultsController.java
+/Users/serafina/Desktop/ingram-micro/src/main/java/com/ingrammicro/controller/VoteController.java
+/Users/serafina/Desktop/ingram-micro/src/main/java/com/ingrammicro/dto/ResultDTO.java
+/Users/serafina/Desktop/ingram-micro/src/main/java/com/ingrammicro/exception/ResourceNotFoundException.java
+/Users/serafina/Desktop/ingram-micro/src/main/java/com/ingrammicro/model/Language.java
+/Users/serafina/Desktop/ingram-micro/src/main/java/com/ingrammicro/model/VoteRequest.java
+/Users/serafina/Desktop/ingram-micro/src/main/java/com/ingrammicro/repository/LanguageRepository.java
+/Users/serafina/Desktop/ingram-micro/src/main/java/com/ingrammicro/service/LanguageService.java
+/Users/serafina/Desktop/ingram-micro/src/main/java/com/ingrammicro/service/ResultsService.java
+/Users/serafina/Desktop/ingram-micro/src/main/java/com/ingrammicro/service/VoteService.java
+/Users/serafina/Desktop/ingram-micro/src/main/java/com/ingrammicro/service/implementation/LanguageServiceImpl.java
+/Users/serafina/Desktop/ingram-micro/src/main/java/com/ingrammicro/service/implementation/ResultsServiceImpl.java
+/Users/serafina/Desktop/ingram-micro/src/main/java/com/ingrammicro/service/implementation/VoteServiceImpl.java

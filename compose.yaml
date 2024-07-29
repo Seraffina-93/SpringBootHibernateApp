@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: ingram-mysql
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: ingram-db
+      MYSQL_USER: user
+      MYSQL_PASSWORD: 1234
+  springboot-app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/ingram-db
+      SPRING_DATASOURCE_USERNAME: user
+      SPRING_DATASOURCE_PASSWORD: 1234
+    depends_on:
+      - mysql
