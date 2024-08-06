@@ -9,6 +9,9 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * Implementation of the ResultsService interface for calculating voting results
+ */
 @Service
 public class ResultsServiceImpl implements ResultsService {
     private final LanguageRepository languageRepository;

@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+/**
+ * REST controller for managing languages
+ */
 @RestController
 @RequestMapping("/api/language")
 public class LanguageController {

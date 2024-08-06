@@ -5,7 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
- * Exception thrown when a resource is not found.
+ * Exception thrown when a resource is not found
  */
 @Getter
 @ResponseStatus(value = HttpStatus.NOT_FOUND)

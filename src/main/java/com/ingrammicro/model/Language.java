@@ -8,6 +8,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.validator.constraints.NotBlank;
 
+/**
+ * Entity representing a programming language
+ */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

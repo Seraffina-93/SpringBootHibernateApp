@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+/**
+ * REST controller for managing results
+ */
 @RestController
 @RequestMapping("/api/results")
 public class ResultsController {

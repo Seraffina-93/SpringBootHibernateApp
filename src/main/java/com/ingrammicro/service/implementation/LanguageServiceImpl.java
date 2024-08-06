@@ -10,6 +10,9 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
+/**
+ * Implementation of the LanguageService interface for managing language entities
+ */
 @Service
 @Transactional
 public class LanguageServiceImpl implements LanguageService {

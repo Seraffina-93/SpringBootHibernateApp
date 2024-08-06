@@ -6,6 +6,9 @@ import com.ingrammicro.service.VoteService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+/**
+ * Implementation of the VoteService interface for handling votes for languages
+ */
 @Service
 @Transactional
 public class VoteServiceImpl implements VoteService {

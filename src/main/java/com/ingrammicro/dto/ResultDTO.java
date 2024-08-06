@@ -3,6 +3,9 @@ package com.ingrammicro.dto;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * Data Transfer Object for representing the results of a vote
+ */
 @Getter
 @Setter
 public class ResultDTO {
